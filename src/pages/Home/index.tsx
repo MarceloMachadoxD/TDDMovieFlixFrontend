@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
 
 import './styles.css';
+import { LoginCard } from 'components/LoginCard';
 
 const Home = () => {
-    return (
-        <div className="home-container">
-            <Link to="/">
-                <button className="btn btn-primary btn-lg start-button">Iniciar</button>
-            </Link>
-        </div>
-    );
-}
+  return (
+    <>
+      <div className="home-container">
+        <Link to="/">
+          <LoginCard />
+        </Link>
+      </div>
+    </>
+  );
+};
 
 export default Home;
