@@ -1,3 +1,32 @@
 .login-card {
-  background-color: #6C6C6C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 17px 10px 10px 17px;
+  background-color: #6c6c6c;
+  border-radius: 4px;
+  width: 300px;
+  height: 464px;
+}
+
+.login-card h1 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  size: 36px;
+  font-weight: 400;
+}
+
+.login-card input {
+  padding-left: 14px;
+  border: 1px solid #fefefe;
+  margin-bottom: 20px;
+  width: 264px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.login-card button {
+  width: 264px;
+  height: 50px;
 }
