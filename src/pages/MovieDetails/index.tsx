@@ -1,3 +1,4 @@
+import SendReview from 'components/SendReview';
 import './styles.css';
 
 const MovieDetails = () => {
@@ -9,7 +10,7 @@ const MovieDetails = () => {
           <h1>id: 1</h1>
         </div>
         <div className="movie-send-review">
-          <h1>componente send review</h1>
+          <SendReview />
         </div>
         <div className="review-list">
           <h6>componente review</h6>
