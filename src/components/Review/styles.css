@@ -1,0 +1,28 @@
+.review-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-name {
+  margin-left: 10px;
+}
+
+.review-text {
+  font-size: 16px;
+  color: #9E9E9E;
+  margin-bottom: 9px;
+  padding: 10px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+}
+
+@media (min-width: 1200px) {
+  .review-title {
+    font-size: 22px;
+  }
+  .review-text {
+    font-size: 18px;
+  }
+}

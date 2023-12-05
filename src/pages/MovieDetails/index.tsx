@@ -1,5 +1,6 @@
 import SendReview from 'components/SendReview';
 import './styles.css';
+import Review from 'components/Review';
 
 const MovieDetails = () => {
   return (
@@ -13,13 +14,12 @@ const MovieDetails = () => {
           <SendReview />
         </div>
         <div className="review-list">
-          <h6>componente review</h6>
-          <h6>componente review</h6>
-          <h6>componente review</h6>
-          <h6>componente review</h6>
-          <h6>componente review</h6>
-          <h6>componente review</h6>
-          <h6>componente review</h6>
+          <Review />
+          <Review />
+          <Review />
+          <Review />
+          <Review />
+          <Review />
         </div>
       </div>
     </>
