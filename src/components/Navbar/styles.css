@@ -1,6 +1,24 @@
 .main-nav {
+  height: 70px;
   padding-left: 18px;
   padding-bottom: 0px;
   min-height: 68px;
-  background-color: #FFC700
+  background-color: #ffc700;
+}
+
+.main-nav h4 {
+margin-bottom: 17px;
+}
+
+.logout-button {
+  margin-right: 18px;
+  margin-bottom: 19px;
+  background-color: #ffc700;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
 }
